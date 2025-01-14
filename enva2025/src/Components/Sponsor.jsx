@@ -2,8 +2,8 @@ import React from 'react';
 
 const Sponsor = () => {
   return (
-    <div>
-      <h1>Sponsors</h1>
+    <div id='sponsors'>
+      <h1>Past Sponsors</h1>
     </div>
   );
 };
