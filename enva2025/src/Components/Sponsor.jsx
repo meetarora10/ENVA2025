@@ -28,19 +28,14 @@ const Sponsors = () => {
     { logo: "/Sponsors/img4.jpeg" },
     { logo: "/Sponsors/img5.jpeg" },
     { logo: "/Sponsors/img6.jpeg" },
-    { logo: "/Sponsors/img7.jpeg" },
     { logo: "/Sponsors/img8.jpeg" },
-    { logo: "/Sponsors/img9.jpeg" },
     { logo: "/Sponsors/img10.jpeg" },
     { logo: "/Sponsors/img11.jpeg" },
     { logo: "/Sponsors/img12.jpeg" },
-    { logo: "/Sponsors/img13.jpeg" },
     { logo: "/Sponsors/img14.jpeg" },
     { logo: "/Sponsors/img15.jpeg" },
     { logo: "/Sponsors/img16.jpeg" },
-    { logo: "/Sponsors/img17.jpeg" },
     { logo: "/Sponsors/img18.jpeg" },
-    { logo: "/Sponsors/img19.jpeg" },
     { logo: "/Sponsors/img20.jpeg" },
     { logo: "/Sponsors/img21.jpeg" },
     { logo: "/Sponsors/img22.jpeg" },   
@@ -73,10 +68,10 @@ const Sponsors = () => {
   const handleMouseLeave = () => setIsAnimating(true);
 
   return (
-    <div id='sponsors' className="w-full py-16 bg-black">
+    <div id='sponsors' className="w-full bg-gradient-to-b from-[#6c210c] to-black text-white py-16">
       <div className="max-w-7xl mx-auto px-4">
         <div className="text-center mb-12">
-          <h1 className="text-7xl font-bold mb-4 text-[#FFA500]">Past Sponsors</h1>
+          <h1 className="text-7xl font-bold mb-4 text-[#FFA500]">Former Sponsors</h1>
         </div>
 
         <div 
