@@ -53,9 +53,9 @@ const Navbar = () => {
           {/* Logo */}
           <div className="flex-shrink-0">
             <img
-              src="/api/placeholder/50/50"
+              src="/ENVA-image.png"
               alt="Logo"
-              className="h-12 w-12"
+              className="h-16 w-auto"
             />
           </div>
 
@@ -76,7 +76,7 @@ const Navbar = () => {
                 key={href}
                 href={href}
                 onClick={(e) => handleClick(e, href)}
-                className="relative group py-2"
+                className="relative group py-2 text-lg"
               >
                 <span className="text-white hover:text-gray-300 transition-colors duration-300">
                   {label}
@@ -95,7 +95,7 @@ const Navbar = () => {
                 key={href}
                 href={href}
                 onClick={(e) => handleClick(e, href)}
-                className={`block px-4 py-2 transition-colors duration-300 ${
+                className={`block px-4 py-2 text-lg transition-colors duration-300 ${
                   activeLink === href ? 'text-orange-500' : 'text-white hover:text-orange-500'
                 }`}
               >
