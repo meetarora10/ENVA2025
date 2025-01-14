@@ -25,7 +25,7 @@ const About = () => {
   }, [images.length]);
 
   return (
-    <div id='about' className="bg-gradient-to-b from-[#A8422D] to-black text-white p-8">
+    <div id='about' className="bg-gradient-to-b from-[#6c210c] to-black text-white p-8">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-8">
         {/* Left Side: Text */}
         <div className="md:w-1/2 text-center md:text-left md:pr-12">

@@ -6,17 +6,19 @@ const LandingPage = () => {
   useEffect(() => {
     const leftCurtain = document.querySelector(".curtain-left");
     const rightCurtain = document.querySelector(".curtain-right");
-
-    // Open curtains after a brief delay
+    const bgContainer = document.querySelector(".bgContainer");
+  
     setTimeout(() => {
       leftCurtain.classList.add("open-left");
       rightCurtain.classList.add("open-right");
-
-      // Optional: Remove the curtain after the animation ends
+  
       setTimeout(() => {
         const curtainContainer = document.querySelector(".curtain-container");
         if (curtainContainer) {
           curtainContainer.style.display = "none";
+        }
+        if (bgContainer) {
+          bgContainer.classList.add("loaded");
         }
       }, 2500);
     }, 500);
