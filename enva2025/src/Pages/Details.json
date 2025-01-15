@@ -1,0 +1,127 @@
+[
+  {
+    "id": 1,
+    "eventName": "Aagaaz",
+    "description": "आarambh (The Dramatics Society of MSIT) cordially invites you to participate in our street play competition AAGHAAZ'20 to raise your voice against the rising prejudice and injustice in our time and stand up for what's right.",
+    "image_url": ""
+  },
+  
+  {
+    "id": 2,
+    "eventName": "Art Galaria",
+    "description": "ART GALARIA is a creative event in which participants have to make their piece of art on a given theme specified on the event day in the given time.",
+    "image_url": ""
+  },
+
+  {
+    "id": 3,
+    "eventName": "Bazinga",
+    "description": "Let's get dicey",
+    "image_url": ""
+  },
+
+  {
+    "id": 4,
+    "eventName": "Bizarre Bidding",
+    "description": "The marketing event",
+    "image_url": ""
+  },
+
+  {
+    "id": 5,
+    "eventName": "Dont Kill The Streets",
+    "description": "A street dance competition including solo & crew participants with on the spot rounds.",
+    "image_url": ""
+  },
+
+  {
+    "id": 6,
+    "eventName": "Envas Got Talent",
+    "description": "This event will bring out the best in the ones who are so passionate to write what they feel but have no platform to present.",
+    "image_url": ""
+  },
+
+  {
+    "id": 7,
+    "eventName": "Episodes",
+    "description": "Episodes is the newest addition to ENVA, it is a fun, bollywood cum entertainment based activities event.",
+    "image_url": ""
+  },
+
+  {
+    "id": 8,
+    "eventName": "FragZone CSGO",
+    "description": "CSGO: WINGMAN competition on LAN. Come with your best wingman and grab the prize.",
+    "image_url": ""
+  },
+
+  {
+    "id": 9,
+    "eventName": "FragZone PUBG",
+    "description": "PubG custom room consisting a team of two players(DUO).",
+    "image_url": ""
+  },
+
+  {
+    "id": 10,
+    "eventName": "Greenite",
+    "description": "GREENITE is an environment based event. It is a nature enthusiasm filled event in which the team who wins a round is promoted to the subsequent round.",
+    "image_url": ""
+  },
+
+  {
+    "id": 11,
+    "eventName": "Guns n Roses",
+    "description": "GUNS N ROSES is an event based on strategy and compatibility between the partners. It is a fun filled event where the couple who wins the first round will be promoted to the subsequent rounds.",
+    "image_url": ""
+  },
+
+  {
+    "id": 12,
+    "eventName": "Hunger Games",
+    "description": "The hunger games is the food event of ENVA 2020 that challenges the appetite and finger licking capabilities of the participants to try the various twists in dishes which they are used to eating.",
+    "image_url": ""
+  },
+
+  {
+    "id": 13,
+    "eventName": "Minute To Win It",
+    "description": "Test your speed and coordination skills with Minute To Win It, where you race against the clock to complete the given task within a minute.Play exciting games with your friends, and stand a chance to win the prize!",
+    "image_url": ""
+  },
+
+  {
+    "id": 14,
+    "eventName": "Mystery Rooms",
+    "description": "It is a game in which a team of players cooperatively discover clues, solve puzzles, and accomplish tasks in order to progress and accomplish a specific goal in a limited amount of time.",
+    "image_url": ""
+  },
+
+  {
+    "id": 15,
+    "eventName": "Roohaniyat",
+    "description": "In these cold days of Delhi's winters, we bring to you the warmth of what we often call 'home’; the home where we nurture our emotions with utmost care, and they love us back with infinities we never thought of; the home we call as 'poetry’.We present to you “Roohaniyat: The Trance of Hope”.",
+    "image_url": ""
+  },
+
+  {
+    "id": 16,
+    "eventName": "Senatus",
+    "description": "Resolve, and thou art free. The best way to resolve is to debate, present your thoughts and make your presence felt in a gathering whose main aim is to determine whether corporations play a role in environmental preservation efforts in third world countries. Senatus, in Latin means resolution and this is why we have named the debating event as Senatus. It provides you the platform to showcase your views with a firm determination.",
+    "image_url": ""
+  },
+
+  {
+    "id": 17,
+    "eventName": "Sportszilla",
+    "description": "SPORTZILLA is a strength based event where contestants are allowed to take part as a team.",
+    "image_url": ""
+  },
+
+  {
+    "id": 18,
+    "eventName": "Treasure Hunt",
+    "description": "THE TIME TURNER is a thrilling game in which the teams deduce the clues given to them to reach out to particular destinations on Day 1.Day 2 comprises of the qualified teams from Day 1 and a series of jittery tasks waiting for them. The first one to complete is declared the ultimate pirate.",
+    "image_url": ""
+  }
+]
