@@ -1,14 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
-
+import Navbar from './Components/Navbar';
+import Home from './Components/Home';
+import About from './Components/About';
+import Events from './Components/Events';
+import Sponsors from './Components/Sponsor';
+import Contact from './Components/Contact';
+import Footer from './Components/Footer';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-          <h1>ENVA 2025</h1>
-          <p>LIGHTS.CAMERA.ACTION</p>
-          <img src={logo} className="App-logo" alt="logo" />
-      </header>
+    <div>
+      <Navbar />
+      <Home />
+      <About />
+      <Events />
+      <Sponsors />
+      <Contact />
+      <Footer />
     </div>
   );
 }

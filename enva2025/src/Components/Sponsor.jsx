@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect, useRef, useCallback } from 'react';
 
 const Sponsors = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -43,11 +43,11 @@ const Sponsors = () => {
 
   const timerRef = useRef(null);
 
-  const nextSlide = () => {
+  const nextSlide = useCallback(() => {
     setCurrentIndex((prevIndex) => 
       prevIndex === sponsorList.length - slidesToShow ? 0 : prevIndex + 1
     );
-  };
+  }, [sponsorList.length, slidesToShow]);
 
   const prevSlide = () => {
     setCurrentIndex((prevIndex) => 
@@ -62,7 +62,7 @@ const Sponsors = () => {
       }, 2500);
     }
     return () => clearInterval(timerRef.current);
-  }, [isAnimating]);
+  }, [isAnimating, nextSlide]);
 
   const handleMouseEnter = () => setIsAnimating(false);
   const handleMouseLeave = () => setIsAnimating(true);
