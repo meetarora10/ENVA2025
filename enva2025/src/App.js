@@ -8,7 +8,7 @@ import Sponsors from './Components/Sponsor';
 import Contact from './Components/Contact';
 import Footer from './Components/Footer';
 import EventDetails from './Components/EventDetails';
-
+import ScrollToTopButton from './Components/ScrollToTopButton';
 // Create a MainPage component to hold all the sections
 const MainPage = () => {
   return (
@@ -27,6 +27,7 @@ function App() {
     <Router>
       <div>
         <Navbar />
+        <ScrollToTopButton />
         <Routes>
           <Route path="/" element={<MainPage />} />
           <Route path="/event/:eventId" element={<EventDetails />} />
