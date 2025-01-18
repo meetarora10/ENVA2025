@@ -71,7 +71,9 @@ const Sponsors = () => {
     <div id='sponsors' className="w-full bg-gradient-to-b from-[#6c210c] to-black text-white py-16">
       <div className="max-w-7xl mx-auto px-4">
         <div className="text-center mb-12">
-          <h1 className="text-7xl font-bold mb-4 text-[#FFA500]">Former Sponsors</h1>
+          <h1 className="text-7xl font-bold mb-4 text-[#FFA500]">Former Sponsors
+            <div className="w-16 h-1 bg-red-500 mx-auto mt-2"></div>
+          </h1>
         </div>
 
         <div 

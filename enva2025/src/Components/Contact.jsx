@@ -27,13 +27,13 @@ const Contact = () => {
         <div className="px-4">
           <h2 className="text-xl font-semibold mb-4 text-[#FFA500]">PHONE NUMBER</h2>
           <p className="text-gray-700 text-[#FFFFFF]">
-            Aditya: <a href="tel:7042029033" className="text-blue-600">7042029033</a>
+            Aditya: <a href="tel:7042029033" className="text-blue-600">+91 8920372787</a>
           </p>
           <p className="text-gray-700 text-[#FFFFFF]">
-            Parth: <a href="tel:9999554630" className="text-blue-600">9999554630</a>
+            Meet: <a href="tel:9560585673" className="text-blue-600">+91 9582371097</a>
           </p>
           <p className="text-gray-700 text-[#FFFFFF]">
-            Mayank: <a href="tel:9560585673" className="text-blue-600">9560585673</a>
+            Nipun: <a href="tel:9999554630" className="text-blue-600">+91 7291945251</a>
           </p>
         </div>
 

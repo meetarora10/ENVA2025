@@ -1,10 +1,13 @@
 import React, { useState, useEffect } from 'react';
+import { useNavigate, useLocation } from 'react-router-dom';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [scrollingUp, setScrollingUp] = useState(true);
   const [lastScroll, setLastScroll] = useState(0);
   const [activeLink, setActiveLink] = useState("");
+  const navigate = useNavigate();
+  const location = useLocation();
 
   const navLinks = [
     { href: "/", label: "Home" },
@@ -29,18 +32,36 @@ const Navbar = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, [lastScroll]);
 
-  const handleClick = (e, href) => {
+  const handleClick = async (e, href) => {
     e.preventDefault();
     setActiveLink(href);
-    // Special handling for home link
-    if (href === "/") {
-      window.scrollTo({ top: 0, behavior: "smooth" });
+
+    // If we're not on the main page, navigate there first
+    if (location.pathname !== '/') {
+      await navigate('/');
+      // Wait a bit for the navigation to complete
+      setTimeout(() => {
+        if (href === "/") {
+          window.scrollTo({ top: 0, behavior: "smooth" });
+        } else {
+          const element = document.querySelector(href);
+          if (element) {
+            element.scrollIntoView({ behavior: "smooth" });
+          }
+        }
+      }, 100);
     } else {
-      const element = document.querySelector(href);
-      if (element) {
-        element.scrollIntoView({ behavior: "smooth" });
+      // If we're already on the main page, just scroll
+      if (href === "/") {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      } else {
+        const element = document.querySelector(href);
+        if (element) {
+          element.scrollIntoView({ behavior: "smooth" });
+        }
       }
     }
+    
     setIsOpen(false);
   };
 
@@ -51,7 +72,7 @@ const Navbar = () => {
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
-          <div className="flex-shrink-0">
+          <div className="flex-shrink-0 cursor-pointer" onClick={(e) => handleClick(e, "/")}>
             <img
               src="/ENVA-image.png"
               alt="Logo"

@@ -2,51 +2,75 @@
     {
       "id": 1,
       "eventName": "Bollywood Day",
-      "description": "आarambh (The Dramatics Society of MSIT) cordially invites you to participate in our street play competition AAGHAAZ'20 to raise your voice against the rising prejudice and injustice in our time and stand up for what's right.",
-      "image_url": "/Events/1.png"
+      "description": "Bollywood Day is your ultimate chance to dive into the drama, glitz, and glamour of Indian cinema! Bring out the actor, singer, or dancer within you as you step into the world of Bollywood with larger-than-life performances. Whether it's nailing iconic movie dialogues or grooving to classic hits, this event promises a filmy extravaganza like no other!",
+      "image_url": "/Events/1.png",
+      "details":"Participants can bring their costumes, props, or anything else to spice up their act. A theme or scenario will be provided ahead of time, so you can channel your inner superstar and bring the magic to life on stage. Creativity and enthusiasm will steal the show!",
+      "min":1,
+      "max":5
     },
     {
       "id": 2,
       "eventName": "Treasure Hunt",
-      "description": "THE TIME TURNER is a thrilling game in which the teams deduce the clues given to them to reach out to particular destinations on Day 1.Day 2 comprises of the qualified teams from Day 1 and a series of jittery tasks waiting for them. The first one to complete is declared the ultimate pirate.",
-      "image_url": "/Events/2.png"
+      "description": "Gear up for a heart-pounding adventure in this ultimate treasure hunt! Follow cryptic clues, unravel riddles, and race against the clock to discover hidden locations. It’s all about wit, speed, and strategy as you and your team embark on a quest full of twists, turns, and surprises. Will you be the one to uncover the treasure?",
+      "image_url": "/Events/2.png",
+      "details":"The hunt takes place over two thrilling days, with each clue leading to the next destination. Teams should have a device for navigation and a sharp mind to tackle physical and mental challenges. Get ready to experience the thrill of solving puzzles and outsmarting your competition!",
+      "min":2,
+      "max":4
     },
     {
       "id": 3,
       "eventName": "Mystery Rooms",
       "description": "It is a game in which a team of players cooperatively discover clues, solve puzzles, and accomplish tasks in order to progress and accomplish a specific goal in a limited amount of time.",
-      "image_url": "/Events/3.png"
+      "image_url": "/Events/3.png",
+      "details":"Each room is packed with clues, locks, and riddles waiting to be solved. Communication and quick thinking are key to making it out before time runs out. A nail-biting experience that will test your logic and creativity to the fullest!",
+      "min":3,
+      "max":6
     },
     {
       "id": 4,
       "eventName": "Guns n Roses",
       "description": "GUNS N ROSES is an event based on strategy and compatibility between the partners. It is a fun filled event where the couple who wins the first round will be promoted to the subsequent rounds.",
-      "image_url": "/Events/4.png"
+      "image_url": "/Events/4.png",
+      "details":"Each round will bring unexpected twists, from quirky compatibility quizzes to thrilling challenges that test your coordination and problem-solving. Make it through each stage, and you’ll face the ultimate showdown in the grand finale. Laughter, surprises, and memories are guaranteed!",
+      "min":2,
+      "max":2
     },
     {
       "id": 5,
       "eventName": "Minute To Win It",
       "description": "Test your speed and coordination skills with Minute To Win It, where you race against the clock to complete the given task within a minute.Play exciting games with your friends, and stand a chance to win the prize!",
-      "image_url": "/Events/5.png"
+      "image_url": "/Events/5.png",
+      "details":"Get ready for the most action-packed 60 seconds of your life! Minute to Win It is a fast-paced event where participants must complete quirky and challenging tasks under the pressure of the ticking clock. It’s all about speed, precision, and having a blast as you race against time to ace the challenges.",
+      "min":2,
+      "max":5
     },
   
     {
       "id": 6,
       "eventName": "Shutter Fiesta",
-      "description": "This event will bring out the best in the ones who are so passionate to write what they feel but have no platform to present.",
-      "image_url": "/Events/6.png"
+      "description": "Capture the world through your lens at Shutter Fiesta! This photography competition invites enthusiasts to explore their creative potential and tell compelling stories through breathtaking visuals. Whether you’re a seasoned photographer or a budding talent, this event offers you the perfect platform to showcase your perspective.",
+      "image_url": "/Events/6.png",
+      "details":"Participants will face dynamic challenges, from capturing candid moments to mastering thematic shots. Each round tests your creativity, composition, and storytelling skills. Gear up with your cameras and a keen eye for detail, and let your photographs do the talking.",
+      "min":1,
+      "max":2
     },
   
     {
       "id": 7,
       "eventName": "Cup Game",
-      "description": "Episodes is the newest addition to ENVA, it is a fun, bollywood cum entertainment based activities event.",
-      "image_url": "/Events/7.png"
+      "description": "Unleash your competitive spirit with an exciting lineup of classic and creative cup games! Whether it’s stacking, flipping, or balancing, Cup Games bring laughter, strategy, and energy into a fun-filled event for everyone. Perfect for team bonding or friendly rivalry, this event guarantees non-stop entertainment.",
+      "image_url": "/Events/7.png",
+      "details":"From iconic challenges like speed stacking to innovative cup-flipping games, there’s something for everyone. These games test your coordination, quick reflexes, and strategy in a series of fast and fun rounds. Grab your teammates, bring your A-game, and let the cups do the magic!",
+      "min":3,
+      "max":5
     },
     {
       "id": 8,
       "eventName": "Squid Game",
-      "description": "GREENITE is an environment based event. It is a nature enthusiasm filled event in which the team who wins a round is promoted to the subsequent round.",
-      "image_url": "/Events/8.png"
+      "description": "Step into the ultimate showdown of wits, teamwork, and thrill in Squid Games! This adrenaline- fueled event is packed with intriguing tasks and clever challenges that will keep you on the edge of your seat. From strategy-based activities to fun team-oriented games, every round brings new surprises as teams compete for the top spot. Will you survive the games and emerge victorious?",
+      "image_url": "/Events/8.png",
+      "details":"Squid Games is all about thinking on your feet and navigating through unexpected twists. With each round, your team will need to stay sharp and work together to outwit the competition. Come prepared for intense fun, clever gameplay, and the experience of a lifetime!",
+      "min":3,
+      "max":6
     }
 ]
