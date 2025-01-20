@@ -33,17 +33,17 @@ const EventDetails = () => {
         )}
         <div className="bg-[#8B4513] p-8 rounded-lg">
         <h2 className='text-center text-3xl'>Event Details</h2>
-          <p className="text-lg">{event.description}</p>
+          <p className="text-lg" style={{ fontFamily: 'Satoshi, sans-serif' }} >{event.description}</p>
           {/* Add any additional event details you want to display */}
         </div>
         <div className='bg-[#8B4513] p-8 rounded-lg mt-4'>
             <h2 className='text-center text-3xl'>Team Details</h2>
-            <p className='text-lg'>Minimum team size: {event.min} </p>
-            <p className='text-lg'>Maximum team size: {event.max} </p>
+            <p className='text-lg' style={{ fontFamily: 'Satoshi, sans-serif' }} >Minimum team size: {event.min} </p>
+            <p className='text-lg' style={{ fontFamily: 'Satoshi, sans-serif' }} >Maximum team size: {event.max} </p>
         </div>
         <div className='bg-[#8B4513] p-8 rounded-lg mt-4'>
             <h2 className='text-center text-3xl'>General Instructions</h2>
-            <p className='text-lg'>1. No Show, No Refund: Refunds will not be provided if the participant/team fails to show
+            <p className='text-lg' style={{ fontFamily: 'Satoshi, sans-serif' }} >1. No Show, No Refund: Refunds will not be provided if the participant/team fails to show
 up for the event. Ensure timely attendance to avoid any inconvenience. <br />
 2. Confirmation Email: Participants must keep the confirmation email readily available
 when asked for. It is a one-time-use document and should be kept secure. Do not share
